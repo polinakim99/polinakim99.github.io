@@ -1,0 +1,16 @@
+h1.zag{
+	margin-top: 120px;
+}
+.sales_available .sales_available_1 {
+	margin-left: 40px;
+	padding-top: 5px;
+	display: inline-flex;
+}
+
+@media screen and (max-width: 880px) {
+	.sales_available .sales_available_1{
+		margin-left: 200px;
+		
+	}
+
+}
