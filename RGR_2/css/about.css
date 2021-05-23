@@ -30,6 +30,9 @@ p {
 	.about{
 		width:70% ;
 	}
+	.fig{
+	height:500px;
+	}
 }
 
 @media screen and (max-width: 880px) {
