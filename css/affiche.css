@@ -1,0 +1,68 @@
+h1.zag{
+	margin-top: 120px;
+}
+.body{
+   overflow-x: hidden;
+}
+hr{
+	background-color: rgba(255, 255, 255, 0.507);
+	height: 3px solid;
+}
+/*.tabs {
+   position: relative; /* Относительное позиционирование 
+  }
+  .tab, .tab-title {
+   display: inline-block; /* Выстраиваем по горизонтали 
+  }
+  .tab input[type="radio"] { display: none; }
+  .tab-title {
+   background: #ccc; /* Цвет фона *
+   border-bottom: none; /* Снизу линию убираем 
+  }
+  .tab-content {
+   position: absolute; /* Абсолютное позиционирование 
+   left: 0; Размещаем у левого края 
+   display:none; 
+  }
+  .tab :checked + .tab-title {
+   position: relative; /* Относительное позиционирование 
+   top: 1px; /* Сдвигаем вниз 
+   z-index: 1; /* Отображаем поверх содержимого
+  }
+  .tab :checked ~ .tab-content {
+   display: block; /* Показываем активную вкладку 
+  }*/
+
+.thumb img {
+	-webkit-filter: grayscale(0);
+	filter: none;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 0,5px solid #ddd;
+	padding: 5px;
+}
+
+.thumb img:hover {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.thumb {
+	padding: 20px;
+}
+
+.opisanie .time a{
+	border: 1px solid rgb(248, 162, 34);
+   padding: 3px;
+   border-radius: 5px;
+}
+
+.thumb p{
+color:rgb(248, 162, 34);
+}
+
+@media screen and (max-width: 880px) {
+	.sales_available .sales_available_1{
+		margin-left: 200px;
+	}
+}
