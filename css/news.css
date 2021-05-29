@@ -8,15 +8,13 @@ h5{
 }
 
 
+.thumb .character{
+	color: white;
+}
 
 .news{
 	width: 36%;
 }
-
-@media screen and (min-width: 880px) {
-
-}
-
 
 @media screen and (max-width: 880px) {
 	.head{
